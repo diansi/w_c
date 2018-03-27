@@ -7,7 +7,7 @@ int main(void)
 	printf("请输入您要求取的序列：");
 	for (i = 0; i < 30; i++)
 	{
-		scanf_s("%d",A[i]);
+		scanf_s("%d",&A[i]);
 	}
 	max = maxzixulie(A[30]);
 	system("pause");
